@@ -20,14 +20,17 @@ const handleHireUsClick = () => {
           name="description"
           content="Building beautiful homes one dream at a time with solid foundations for a brighter future. Hire our expert team of builders and designers today!"
         />
-        <meta name="keywords" content="construction, homes, building, eco-friendly, budget-friendly" />
+        <meta
+          name="keywords"
+          content="construction, homes, building, eco-friendly, budget-friendly"
+        />
         <meta name="author" content="Pfrancesco Construction" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
 
       <main
         className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-4 md:mx-10 p-6 mt-10 
-        bg-[url('https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-no-repeat bg-center h-[20rem] md:min-h-screen bg-gray-100"
+        bg-[url('src/assets/construction-image.jpg')] bg-cover bg-no-repeat bg-center h-[20rem] md:min-h-screen bg-gray-100"
       >
         {/* Left Content */}
         <div className="w-full md:w-[494px] text-center md:text-left bg-white/80 p-4 rounded-md">
