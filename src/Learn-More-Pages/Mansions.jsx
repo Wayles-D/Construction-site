@@ -1,5 +1,5 @@
 import React from 'react';
-import mansionhero from '../assets/mansionhero.png';
+import mansionhero from '../assets/mansionHero.png';
 import mansioninterior from '../assets/mansioninterior.png';
 import mansioninterior2 from '../assets/mansioninterior2.png';
 
