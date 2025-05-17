@@ -95,29 +95,29 @@ const Navbar = () => {
           <div
             className={`${
               isMenuOpen ? "block" : "hidden"
-            } absolute top-[70px] py-5 px-10 left-0 w-full bg-[#006A51] text-white shadow-md md:static md:flex md:gap-10 md:items-center md:justify-end`}
+            } absolute top-[70px] left-0 w-full bg-white shadow-md md:static md:flex md:gap-10 md:items-center md:justify-end`}
           >
             <div className="flex flex-col md:flex-row gap-4 md:gap-10 p-4 md:p-0">
               <button
-                className="hover:text-white text-white"
+                className="hover:text-[#004D3A] text-[#006A51]"
                 onClick={navigateToHome}
               >
                 Home
               </button>
               <button
-                className="hover:text-white text-white"
+                className="hover:text-[#004D3A] text-[#006A51]"
                 onClick={navigateToServices}
               >
                 Services
               </button>
               <button
-                className="hover:text-white text-white"
+                className="hover:text-[#004D3A] text-[#006A51]"
                 onClick={navigateToAboutUs}
               >
                 About Us
               </button>
               <button
-                className="hover:text-white text-white"
+                className="hover:text-[#004D3A] text-[#006A51]"
                 onClick={toggleModal}
               >
                 Contact Us
@@ -151,8 +151,7 @@ const Navbar = () => {
               <strong>Phone:</strong> +1 (123) 456-7890
             </p>
             <p className="mb-4">
-              <strong>Office Address:</strong> 2 Venus Place, Kings Langley NSW
-              2147
+              <strong>Office Address:</strong> 2 Venus Place, Kings Langley NSW 2147
             </p>
             <button
               className="bg-[#006A51] text-white px-4 py-2 rounded hover:bg-[#004D3A] transition"
