@@ -1,6 +1,6 @@
 import React from 'react';
 import ecoHero from '../assets/ecoHero.png';
-import ecointerior1 from '../assets/ecoInterior1.png';
+import ecointerior1 from '../assets/ecointerior1.png';
 import ecoExterior from '../assets/ecoExterior.png';
 
 const EcoHouses = () => {
