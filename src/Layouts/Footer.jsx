@@ -41,8 +41,8 @@ const Footer = () => {
           {/* Contact Section */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p className="text-sm">Email: paulfraa21@gmail.com</p>
-            <p className="text-sm">Phone: +1 (123) 456-7890</p>
+            <p className="text-sm">Email: contact@pfrancesco.com</p>
+            <p className="text-sm">Phone: +61318195187</p>
             <p className="text-sm">Address: 2 Venus Place, Kings Langley NSW 2147</p>
           </div>
         </div>
