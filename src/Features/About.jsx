@@ -1,7 +1,9 @@
 import React from "react";
 import visionImg from "../assets/vision.svg";
 import missionImg from "../assets/mission.svg";
-import leaderImg from "../assets/leadersImg.jpeg";
+import Paulfrancesco from "../assets/PaulFrancesco.jpg";
+import LucasBrooks from "../assets/LucasBrooks.jpg";
+import MaryFred from "../assets/MaryFred.jpg";
 import polygonImg from "../assets/Polygon 1.png";
 
 const About = () => {
@@ -53,7 +55,7 @@ const About = () => {
                 {/* Leader Image */}
                 <img
                   className="absolute top-[10%] left-[10%] w-[80%] h-[80%] object-cover clip-hexagon"
-                  src={leaderImg}
+                  src={Paulfrancesco}
                   alt="leaderImg"
                 />
               </div>
@@ -69,11 +71,11 @@ const About = () => {
                 />
                 <img
                   className="absolute top-[10%] left-[10%] w-[80%] h-[80%] object-cover clip-hexagon"
-                  src={leaderImg}
+                  src={LucasBrooks}
                   alt="leaderImg"
                 />
               </div>
-              <p className="font-semibold mt-6">Wonder Isreal</p>
+              <p className="font-semibold mt-6">Lucas Brooks</p>
               <p className="text-gray-600 text-sm">Chief Architect</p>
             </div>
             <div className="text-center">
@@ -85,7 +87,7 @@ const About = () => {
                 />
                 <img
                   className="absolute top-[10%] left-[10%] w-[80%] h-[80%] object-cover clip-hexagon"
-                  src={leaderImg}
+                  src={MaryFred}
                   alt="leaderImg"
                 />
               </div>
